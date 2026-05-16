@@ -1,5 +1,24 @@
 """
 Code: Doubly Linked List
+Description: 
+    Implemented a Doubly Linked List data structure in Python.
+
+Features:
+    - Insert nodes at the beginning, end, or after a specific node
+    - Delete nodes by value, at the beginning or end
+    - Traverse and display list elements
+    - Search for elements in the list
+    - Calculate the length of the linked list
+
+Concepts Used:
+    - Object-Oriented Programming (OOP)
+    - Dynamic memory representation using nodes
+
+Purpose:
+    This project demonstrates the implementation and working
+    of a dynamic linear data structure without using Python's
+    built-in list methods.
+    
 """
 
 class Node:
@@ -129,7 +148,7 @@ class DLL:
                             self.start = temp.next
                         if temp.next is not None:
                             temp.next.prev = temp.prev
-                            
+
                         self.count -= 1
                         break
                     temp = temp.next
