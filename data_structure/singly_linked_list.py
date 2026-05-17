@@ -113,30 +113,31 @@ class SLL:
         return self.count
 
 
-s1 = SLL()
-s1.insert_at_first(23)
-s1.insert_at_last(40)
-s1.insert_at_first(30)
-s1.insert_at_last(46)
-s1.show()
-# print(s1.search_item(23).item)
+if __name__ == "__main__":
+    s1 = SLL()
+    s1.insert_at_first(23)
+    s1.insert_at_last(40)
+    s1.insert_at_first(30)
+    s1.insert_at_last(46)
+    s1.show()
+    # print(s1.search_item(23).item)
 
-print('Inserting element at')
-s1.insert_at(34, 46)
-s1.show()
+    print('Inserting element at')
+    s1.insert_at(34, 46)
+    s1.show()
 
-print(s1.size())
+    print(s1.size())
 
-print('Deleting First Element')
-s1.delete_first()
-s1.show()
+    print('Deleting First Element')
+    s1.delete_first()
+    s1.show()
 
-# print('Deleting Last Element')
-# s1.delete_last()
-# s1.show()
+    # print('Deleting Last Element')
+    # s1.delete_last()
+    # s1.show()
 
-print('Deleting Element for Linkedlist')
-s1.delete_item(23)
-s1.show()
+    print('Deleting Element for Linkedlist')
+    s1.delete_item(23)
+    s1.show()
 
-print(s1.size())
+    print(s1.size())
