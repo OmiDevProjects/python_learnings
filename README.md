@@ -18,6 +18,7 @@ Singly Linked List (SLL)
 Doubly Linked List (DLL)
 Circular Linked List (CLL)
 Circular Doubly Linked List (CDLL)
+
 Stack Implementations
 Stack using Python List
 Stack using List Inheritance
