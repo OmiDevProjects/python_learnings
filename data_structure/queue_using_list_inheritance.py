@@ -20,7 +20,21 @@ Concepts Used:
 Purpose:
     This project demonstrates the implementation and working
     of a Queue data structure using Python's built-in list.
+
+Note:
+    Since Python lists are dynamic arrays, dequeue operation
+    using pop(0) requires shifting elements and takes O(n) time.
     
+
+| Operation | Time Complexity |
+| --------- | --------------- |
+| Enqueue   | O(1)            |
+| Dequeue   | O(n)            |
+| Get Front | O(1)            |
+| Get Rear  | O(1)            |
+| Size      | O(1)            |
+
+
 """
 
 from collections import deque
