@@ -21,6 +21,15 @@ Purpose:
     This project demonstrates the implementation and working
     of a Stack data structure using Python's built-in list.
 
+
+| Operation | Time Complexity |
+| --------- | --------------- |
+| Push      | O(1)            |
+| Pop       | O(1)            |
+| Peek      | O(1)            |
+| is_empty  | O(1)            |
+| Size      | O(1)            |
+
 """
 
 class Stack:

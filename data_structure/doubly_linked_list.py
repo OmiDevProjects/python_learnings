@@ -19,6 +19,19 @@ Purpose:
     of a dynamic linear data structure without using Python's
     built-in list methods.
     
+    
+| Operation       | Time Complexity |
+| --------------- | --------------- |
+| Insert at First | O(1)            |
+| Insert at Last  | O(n)            |
+| Insert After    | O(n)            |
+| Search          | O(n)            |
+| Delete First    | O(1)            |
+| Delete Last     | O(n)            |
+| Delete by Value | O(n)            |
+| Traversal       | O(n)            |
+| Size            | O(1)            |
+
 """
 
 class Node:

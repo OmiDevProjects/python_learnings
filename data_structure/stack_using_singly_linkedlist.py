@@ -22,6 +22,16 @@ Purpose:
     This project demonstrates the implementation and working
     of a Stack data structure using a Singly Linked List.
 
+
+| Operation | Time Complexity |
+| --------- | --------------- |
+| Push      | O(1)            |
+| Pop       | O(1)            |
+| Peek      | O(1)            |
+| is_empty  | O(1)            |
+| Size      | O(1)            |
+
+
 """
 
 from singly_linked_list import SLL
