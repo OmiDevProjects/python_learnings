@@ -16,10 +16,11 @@ Concepts Used:
     - Object-Oriented Programming (OOP)
     - List operations
     - FIFO (First In First Out) principle
+    - Inheritance
 
 Purpose:
     This project demonstrates the implementation and working
-    of a Queue data structure using Python's built-in list.
+    of a Queue data structure using Python's built-in list inherating.
 
 Note:
     Since Python lists are dynamic arrays, dequeue operation
