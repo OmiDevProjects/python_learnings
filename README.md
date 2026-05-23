@@ -1,29 +1,36 @@
 Python Learnings 🐍
 
-A collection of Python programs, Data Structure implementations, and problem-solving concepts built while learning and practicing Python programming.
+A structured collection of Python programs, Data Structure implementations, and Object-Oriented Programming concepts built while learning and practicing Python programming.
 
-This repository contains beginner-to-intermediate level implementations of core computer science concepts using Python with a strong focus on:
+This repository focuses on implementing core Data Structures from scratch without relying on Python’s built-in data structure methods wherever possible.
 
-Data Structures
-Object-Oriented Programming (OOP)
-Problem Solving
-Time Complexity Analysis
-Clean and Modular Code
+The goal of this repository is to strengthen:
+Problem-solving skills
+DSA fundamentals
+OOP concepts
+Time complexity analysis
+Low-level understanding of data structures
 
 
-📚 Contents
-Data Structures Implemented
-Linked Lists
+🔗 Linked Lists
 Singly Linked List (SLL)
 Doubly Linked List (DLL)
 Circular Linked List (CLL)
 Circular Doubly Linked List (CDLL)
+Optimized Doubly Linked List (ODLL)
 
-Stack Implementations
+📚 Stack Implementations (LIFO)
 Stack using Python List
 Stack using List Inheritance
 Stack using Singly Linked List
 Stack using Linked List Inheritance
+Stack using Linked List Concept
+
+📥 Queue Implementations (FIFO)
+Queue using Python List
+Queue using List Inheritance
+Queue using Singly Linked List
+Queue using Optimized Doubly Linked List
 
 
 🚀 Features
@@ -36,25 +43,31 @@ Clean and readable Python code
 Modular implementations
 
 
-🧠 Concepts Covered
+⚡ Concepts Covered
 Object-Oriented Programming (OOP)
 Inheritance
 Composition
 Dynamic Memory Representation
-Node-based Data Structures
-LIFO Principle
+Linked List Operations
+Stack & Queue Abstraction
+FIFO & LIFO Principles
 Circular Data Structures
-Pointer Manipulation
+Head/Tail Pointer Optimization
 Time Complexity Analysis
 
 
-| Data Structure              | Insert      | Delete      | Search |
-| --------------------------- | ----------- | ----------- | ------ |
-| Singly Linked List          | O(1) / O(n) | O(1) / O(n) | O(n)   |
-| Doubly Linked List          | O(1) / O(n) | O(1) / O(n) | O(n)   |
-| Circular Linked List        | O(1) / O(n) | O(1) / O(n) | O(n)   |
-| Circular Doubly Linked List | O(1)        | O(1)        | O(n)   |
-| Stack                       | O(1)        | O(1)        | O(1)   |
+| Data Structure                     | Insert      | Delete      | Search |
+| ---------------------------------- | ----------- | ----------- | ------ |
+| Singly Linked List (SLL)           | O(1) / O(n) | O(1) / O(n) | O(n)   |
+| Doubly Linked List (DLL)           | O(1) / O(n) | O(1) / O(n) | O(n)   |
+| Circular Linked List (CLL)         | O(1) / O(n) | O(1) / O(n) | O(n)   |
+| Circular Doubly Linked List (CDLL) | O(1)        | O(1)        | O(n)   |
+| Optimized Doubly Linked List       | O(1)        | O(1)        | O(n)   |
+| Stack (List)                       | O(1)        | O(1)        | O(1)   |
+| Stack (Linked List)                | O(1)        | O(1)        | O(1)   |
+| Queue (Python List)                | O(1)        | O(n)        | O(n)   |
+| Queue (Singly Linked List)         | O(n)        | O(1)        | O(n)   |
+| Queue (Optimized DLL)              | O(1)        | O(1)        | O(n)   |
 
 
 🎯 Purpose of This Repository
