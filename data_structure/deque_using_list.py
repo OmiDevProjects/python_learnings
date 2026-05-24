@@ -1,5 +1,38 @@
 """
-Code: Deque data structure implementation using list.
+Code: Deque Implementation using Python List
+
+Description:
+    Implemented a Deque (Double Ended Queue) data structure
+    using Python lists to perform insertion and deletion
+    operations from both ends.
+
+Features:
+    - Insert elements at front
+    - Insert elements at rear
+    - Delete elements from front
+    - Delete elements from rear
+    - Access front element
+    - Access rear element
+    - Check deque size
+    - Check whether deque is empty
+
+Concepts Used:
+    - Object-Oriented Programming (OOP)
+    - List operations
+    - Double Ended Queue (Deque)
+
+Purpose:
+    This project demonstrates the implementation and working
+    of a Deque data structure using Python's built-in list.
+
+Time Complexity:
+    - Insert Front : O(n)
+    - Insert Rear  : O(1)
+    - Delete Front : O(n)
+    - Delete Rear  : O(1)
+    - Get Front    : O(1)
+    - Get Rear     : O(1)
+
 """
 
 class Deque:
