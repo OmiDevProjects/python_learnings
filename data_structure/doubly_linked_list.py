@@ -120,7 +120,7 @@ class DLL:
         print()
 
     @property
-    def len(self):
+    def size(self):
         return self.count
 
     def delete_first(self):
@@ -181,5 +181,5 @@ obj.show()
 obj.delete_last()
 obj.delete_item(89)
 
-print('Size: ', obj.len)
+print('Size: ', obj.size)
 obj.show()
